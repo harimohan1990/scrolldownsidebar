@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: cornflowerblue;
+    padding: 34px 12px;
+    position: fixed;
+    width: 100%;
+    top: -27px;
+    transition: top 0.3s ease 0s;
+}
+
+#navbar{
+    margin: 0px auto;
+    width: 80%;
+    background-color: aquamarine;
+}
+#navbar a{
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: red;
+    color:black
+}
+main{
+    background-color: brown;
+    padding: 63px 15px;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
